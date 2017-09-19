@@ -1,0 +1,36 @@
+body {
+	background-image: url(background.jpg);
+}
+p {
+	width: 1000px;
+	font-size: 15px;
+}
+#right {
+	float: right;
+	width: 300px;
+	position: fixed;
+	top: 110px;
+	right: 1px;
+	border: solid 3px; 
+}
+.w {
+	width: 150px;
+}
+.a1:link {
+	text-decoration: none;
+	color: grey;
+}
+.a1:hover {
+	color: green;
+	text-decoration: underline;
+}
+.a1:visited {
+	color: red;
+}
+iframe {
+	float: left;
+	border: none;
+}
+table, th, td {
+	border:1px solid;
+}
